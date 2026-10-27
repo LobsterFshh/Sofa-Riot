@@ -196,7 +196,7 @@ canvas.pad{display:block; width:100%; touch-action:none; cursor:crosshair}
    3. In that database's Rules tab, allow the rooms path:
         { "rules": { "rooms": { ".read": true, ".write": true } } }
    No sign-in is needed. Rooms are deleted when the host ends the game. */
-const firebaseConfig = {
+var FIREBASE_CONFIG = {
   apiKey: "AIzaSyCDEpFOEalw5RoazYDPkBgGPdqPgRSeguo",
   authDomain: "couch-riot.firebaseapp.com",
   databaseURL: "https://couch-riot-default-rtdb.firebaseio.com",
